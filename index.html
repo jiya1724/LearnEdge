@@ -394,22 +394,23 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
-    <script>
+  <<script>
         var swiper = new Swiper(".mySwiper", {
-            
             slidesPerView: 1,
             spaceBetween: 30,
+            autoplay: {
+                delay: 6000, // Set the delay to 8000 milliseconds (8 seconds)
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
-                
             },
             breakpoints:{
                 600:{
                     slidesPerView: 2
                 }
             }
-            });
-      </script>
+        });
+    </script>
 </body>
 </html>
