@@ -503,9 +503,10 @@ footer ul li a:hover {
         margin-right: 0;
     }
 
-    .courses { 
-        margin-top: 0; 
-        padding: 5rem;
+    .courses {
+        padding: 0.8rem;
+        margin-top: 5rem;
+}
     }
     .courses_container { 
         grid-template-columns: 1fr 1fr;
