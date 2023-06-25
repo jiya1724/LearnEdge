@@ -294,6 +294,8 @@ header {
 
 .courses{
     margin-top: 10rem;
+    padding: 0;
+    padding-bottom: 5rem;
 }
 .courses_container{
     display: grid;
@@ -503,6 +505,7 @@ footer ul li a:hover {
 
     .courses { 
         margin-top: 0; 
+        padding: 5rem;
     }
     .courses_container { 
         grid-template-columns: 1fr 1fr;
