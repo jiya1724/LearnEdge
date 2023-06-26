@@ -579,9 +579,10 @@ footer ul li a:hover {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
     }
-    
-
-    
+    .courses{
+        padding:2rem;
+        padding-top:5rem;
+    }
     .courses_container { 
         grid-template-columns: 1fr ;
     }
